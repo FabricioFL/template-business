@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Share+Tech+Mono&display=swap');
+
+body
+{
+    background-color: rgb(245, 242, 242);
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #363d87;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 1.5rem;
+}
+
+.nav-title
+{
+    top: 1;
+    font-family: 'Share Tech Mono';
+    font-size: 2.5rem;
+    left: 1;
+    color: #fff;
+}
+
+.nav-links
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Share Tech Mono';
+    font-size: 1.3rem;
+}
+
+.nav-links a
+{
+    margin: 1rem;
+    color: rgb(225, 220, 220);
+}
+.nav-links a:hover
+{
+    color: #fff;
+}
