@@ -1,0 +1,1 @@
+# A simple layout for company's presentation
