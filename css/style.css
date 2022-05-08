@@ -5,17 +5,22 @@ body
     background-color: rgb(245, 242, 242);
 }
 
+main
+{
+    padding-bottom: 20rem;
+}
+
 nav
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #363d87;
     left: 0;
     right: 0;
     top: 0;
-    padding: 1.5rem;
+    padding: 1rem;
 }
 
 .nav-title
@@ -23,7 +28,6 @@ nav
     top: 1;
     font-family: 'Share Tech Mono';
     font-size: 2.5rem;
-    left: 1;
     color: #fff;
 }
 
@@ -34,7 +38,7 @@ nav
     flex-wrap: wrap;
     justify-content: space-evenly;
     font-family: 'Share Tech Mono';
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .nav-links a
@@ -43,6 +47,115 @@ nav
     color: rgb(225, 220, 220);
 }
 .nav-links a:hover
+{
+    color: #fff;
+}
+
+
+.container
+{
+    padding: 1.5rem;
+}
+
+.banner-about
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    padding: 8rem;
+    background-color: #7c7da0;
+    color: #fff;
+    font-family: 'Outfit';
+}
+
+.about-1
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.about-1 div
+{
+    padding: 1rem;
+}
+
+#about h2
+{
+    color: #000000;
+    font-family: 'Outfit';
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.new_ideas_img
+{
+    width: 15rem;
+}
+
+footer
+{
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    background-color: #363d87;
+    color: #ececec;
+    font-family: 'Outfit';
+}
+
+.footer-copyright
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.footer-copyright a:hover
+{
+    color: #fff;
+}
+
+.footer-links
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.footer-links a:hover
+{
+    color: #fff;
+}
+
+.back-to-top
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 1rem;
+    background-color: #1e256d;
+    color: #ececec;
+    font-family: 'Outfit';
+    font-size: 1rem;
+}
+
+.back-to-top a:hover
 {
     color: #fff;
 }
