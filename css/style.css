@@ -1,161 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Share+Tech+Mono&display=swap');
+
+
+
+.btn-get-started
+{
+    background-color: #b65050;
+    color: #fff;
+    font-family: monospace;
+    font-size: 0.7vw;
+    padding: 1vh 2vw;
+    width: 5vw;
+    margin: 4vh auto;
+    opacity: 95%;
+}
+
+.btn-get-started:hover
+{
+    background-color: #cf5151;
+    opacity: 100%;
+}
+
+
+
+.btn-see-more
+{
+    background-color: #b65050;
+    color: #fff;
+    font-family: monospace;
+    font-size: 0.6vw;
+    padding: 0.5vh 1vw;
+    width: 3vw;
+    margin: 4vh auto;
+    opacity: 95%;
+}
+
+.btn-see-more:hover
+{
+    background-color: #cf5151;
+    opacity: 100%;
+}
+
 
 body
 {
-    background-color: rgb(245, 242, 242);
+    padding-bottom: 50vw;
 }
 
-main
+header
 {
-    padding-bottom: 20rem;
+    display: flex;
+    justify-content: center;
+    background-image: url("https://toonapalooza.net/wp-content/uploads/2020/10/img-bg-business-office-colaborating-1920x1080-3.jpg");
+    background-attachment: fixed;
+    padding: 40vh 0vw;
+}
+
+header h1
+{
+    color: #fff;
+    font-family: monospace;
+    font-size: 2vw;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00000068;
 }
 
 nav
 {
     display: flex;
-    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #fff;
+    background-color: #565656;
+    padding: 1vh 0vw;
+}
+
+nav a
+{
+    color: #fff;
+    opacity: 80%;
+}
+
+nav a:hover
+{
+    opacity: 100%;
+}
+
+#home
+{
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 0vw;
+}
+
+#home h2
+{
+    padding: 2vh 0vw;
+    margin: 0 auto;
+}
+
+#home p
+{
+    margin: 0 auto;
+    width: 50%;
+}
+
+#cases
+{
+    display: flex;
+    flex-direction: column;
+    padding: 8vh 0vw;
+}
+
+#cases h2
+{
+    margin: 0 auto;
+    padding: 2vh 0vw;
+}
+
+#cases p
+{
+    margin: 0 auto;
+    font-family: monospace;
+    font-size: 0.6vw;
+    width: 50%;
+}
+
+#cases div
+{
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #363d87;
-    left: 0;
-    right: 0;
-    top: 0;
-    padding: 1rem;
+    width: 50%;
+    margin: 0 auto;
 }
 
-.nav-title
+#cases div div
 {
-    top: 1;
-    font-family: 'Share Tech Mono';
-    font-size: 2.5rem;
-    color: #fff;
-}
-
-.nav-links
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    font-family: 'Share Tech Mono';
-    font-size: 1.2rem;
-}
-
-.nav-links a
-{
-    margin: 1rem;
-    color: rgb(225, 220, 220);
-}
-.nav-links a:hover
-{
-    color: #fff;
-}
-
-
-.container
-{
-    padding: 1.5rem;
-}
-
-.banner-about
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    left: 0;
-    right: 0;
-    padding: 8rem;
-    background-color: #7c7da0;
-    color: #fff;
-    font-family: 'Outfit';
-}
-
-.about-1
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.about-1 div
-{
-    padding: 1rem;
-}
-
-#about h2
-{
-    color: #000000;
-    font-family: 'Outfit';
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.new_ideas_img
-{
-    width: 15rem;
-}
-
-footer
-{
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 1rem;
-    background-color: #363d87;
-    color: #ececec;
-    font-family: 'Outfit';
-}
-
-.footer-copyright
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    font-size: 1.2rem;
-}
-
-.footer-copyright a:hover
-{
-    color: #fff;
-}
-
-.footer-links
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 1rem;
-    margin-top: 1rem;
-    font-size: 1rem;
-}
-
-.footer-links a:hover
-{
-    color: #fff;
-}
-
-.back-to-top
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 1rem;
-    background-color: #1e256d;
-    color: #ececec;
-    font-family: 'Outfit';
-    font-size: 1rem;
-}
-
-.back-to-top a:hover
-{
-    color: #fff;
+    margin: 1vw;
 }
