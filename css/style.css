@@ -56,11 +56,11 @@ header
 
 header h1
 {
-    color: #fff;
+    color: #f7f7f7;
     font-family: monospace;
     font-size: 2vw;
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #00000068;
+    -webkit-text-stroke-color: #0000008f;
 }
 
 nav
@@ -127,12 +127,20 @@ nav a:hover
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 2vh 0vw;
+}
+
+#cases div div
+{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 50%;
     margin: 0 auto;
 }
 
-#cases div div
+#cases div div div
 {
     margin: 1vw;
 }
